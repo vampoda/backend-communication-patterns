@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+</head>
+<body>
+
+<h1>look at console</h1>
+
+<script>
+        let sse =new EventSource("http://www.localhost:8080/stream")
+    sse.onmessage=console.log
+    
+    
+    
+    </script>
+</body>
+</html>
